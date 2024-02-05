@@ -9,6 +9,7 @@
   "author": "Jesus Garcia Silva",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "sass": "^1.70.0"
   }
 }
