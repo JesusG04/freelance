@@ -8,7 +8,7 @@
     min-height: 40rem;
     position: relative;
     overflow: hidden;
-
+    margin-bottom: 3rem;
     .hero-contenido{
         position:absolute;
         height: 100%;
@@ -35,7 +35,7 @@
         color: v.$blanco;
         font-size: 3.5rem;  
         padding: 2rem;
-        
+        margin: 0;
     }
    
     .boton{
