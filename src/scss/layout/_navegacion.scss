@@ -16,10 +16,11 @@
     a{
         padding: 1.2rem;
         font-size: 1.5rem;
+        font-weight: 700;
         color: v.$blanco;
         text-align: center;
         &:hover{
-            background-color: v.$tealClaro;
+            background-color: v.$verdeMasOscuro;
         }
     }
 

@@ -387,9 +387,84 @@ template {
 .nav a {
   padding: 1.2rem;
   font-size: 1.5rem;
+  font-weight: 700;
   color: #ffffff;
   text-align: center;
 }
 .nav a:hover {
-  background-color: #2B5C65;
+  background-color: #758B76;
+}
+
+.hero {
+  width: 100%;
+  max-height: 50rem;
+  min-height: 40rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero .hero-contenido {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+}
+.hero img {
+  max-height: 50rem;
+  min-height: 40rem;
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+
+.hero-info {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.hero-info h2 {
+  color: #ffffff;
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+.hero-info .boton {
+  color: #ffffff;
+  background-color: #0E3541;
+  padding: 0.8rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  width: 80%;
+  font-weight: 700;
+  margin: 2rem;
+}
+@media (min-width: 480px) {
+  .hero-info .boton {
+    width: auto;
+  }
+}
+.hero-info .boton:hover {
+  background-color: #758B76;
+}
+
+.ubicacion {
+  text-align: center;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .ubicacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.ubicacion i {
+  color: #ffffff;
+  font-size: 4rem;
+}
+.ubicacion p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+  margin: 0;
 }
