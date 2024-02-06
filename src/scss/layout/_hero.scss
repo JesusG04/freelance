@@ -30,10 +30,12 @@
     text-align: center;
     display: grid;
     place-items: center;
+    
     h2{
         color: v.$blanco;
         font-size: 3.5rem;  
         padding: 2rem;
+        
     }
    
     .boton{
@@ -45,11 +47,13 @@
         width: 80%;
         font-weight: 700;
         margin: 2rem;
+        transition: background-color 0.2s ease-in-out;
+
         @include m.telefono {
             width: auto;            
         }
         &:hover{
-            background-color: v.$verdeMasOscuro;
+            background-color: v.$verdeMasOscuro;  
         }
     }
 }

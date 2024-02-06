@@ -390,6 +390,7 @@ template {
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+  transition: background-color 0.2s ease-in-out;
 }
 .nav a:hover {
   background-color: #758B76;
@@ -436,6 +437,7 @@ template {
   width: 80%;
   font-weight: 700;
   margin: 2rem;
+  transition: background-color 0.2s ease-in-out;
 }
 @media (min-width: 480px) {
   .hero-info .boton {

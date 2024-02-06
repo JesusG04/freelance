@@ -19,6 +19,7 @@
         font-weight: 700;
         color: v.$blanco;
         text-align: center;
+        transition: background-color 0.2s ease-in-out;
         &:hover{
             background-color: v.$verdeMasOscuro;
         }
