@@ -1,0 +1,26 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.nav{
+    background-color: v.$tealMasOscuro;
+    
+    .nav-principal{
+        display: flex;
+        flex-direction: column;
+        @include m.telefono {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+
+    a{
+        padding: 1.2rem;
+        font-size: 1.5rem;
+        color: v.$blanco;
+        text-align: center;
+        &:hover{
+            background-color: v.$tealClaro;
+        }
+    }
+
+}

@@ -1,0 +1,44 @@
+@use 'variables' as v;
+
+html{
+    font-size: 62.5%; // hace que 1rem equivalga a 10px
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: v.$fuente; 
+}
+p{
+    font-size: 2rem;
+    color: v.$negro;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+.contenedor{
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}

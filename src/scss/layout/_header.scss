@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+
+.header{
+    padding: 2rem;
+    h1{
+        font-size: 3.5rem;
+        margin: 0;
+        text-align: center;
+    }
+    span{
+        font-size: 2rem;
+    } 
+  
+}
